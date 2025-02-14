@@ -1,1 +1,1 @@
-# learning_python
+This repository contains files from when I first started learning Python several years ago. They do not reflect my current skill level or even my abilities at the time, as they were assigned by my teacher rather than chosen by me.
