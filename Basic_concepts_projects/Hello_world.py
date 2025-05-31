@@ -1,0 +1,6 @@
+print("Hello World!")
+print("Hello World!")
+print()
+print("Hello World!")
+print("*********\n*\t*\n*\t*")
+print("Hello World!")
