@@ -1,0 +1,2 @@
+# Minimal Concept Test Programs
+This folder contains extremely simple test programs focused on basic concepts. They are intentionally minimal, either to meet the instructor’s requirements or for testing purposes, depending on whether they were written in a learning environment or on my own.
