@@ -1,5 +1,4 @@
 # This program reverses the input sentence
-
 sentence = input("Please input sentence: ")
 length = len(sentence)
 

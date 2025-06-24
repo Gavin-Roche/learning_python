@@ -1,5 +1,4 @@
-# Simple Caesar cipher that encrypts a 5-letter word using a shift key
-
+# Simple Caesar cipher that encrypts string using a shift key
 alphabet = "abcdefghijklmnopqrstuvwxyz "
 
 print("This program only handles strings with a-z and spaces")

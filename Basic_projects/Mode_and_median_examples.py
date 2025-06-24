@@ -1,5 +1,4 @@
 # Median example
-
 import statistics
 
 myList = [1, 19, 27, 8, 5, 11]
@@ -7,7 +6,6 @@ medianValue = statistics.median(myList)
 print(medianValue)
 
 # Counting occurrences of each item
-
 myList = ["r", "b", "g", "g", "r"]
 colourNames = []
 colourCounts = []
@@ -21,7 +19,6 @@ print(colourNames)
 print(colourCounts)
 
 # Mode example
-
 colourCounts = [4, 4, 4]
 colourNames = ["red", "green", "blue"]
 

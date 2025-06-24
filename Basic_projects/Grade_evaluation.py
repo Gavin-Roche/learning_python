@@ -1,5 +1,4 @@
 # Evaluate the grade and assign pass, merit, distinction, or fail
-
 grade = float(input("Please input your grade: "))
 print()
 

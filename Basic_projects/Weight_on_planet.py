@@ -1,5 +1,4 @@
 # This program calculates the user's weight on either Mars or the Moon
-
 userWeight = float(input("input weight in kgs:"))
 
 planet = input("input moon or mars:")

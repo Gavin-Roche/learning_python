@@ -1,5 +1,4 @@
 #Returns whether two numbers are the same
-
 num1 = int(input("Enter a number:"))
 num2 = int(input("Enter a number:"))
 

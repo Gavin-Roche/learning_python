@@ -1,5 +1,4 @@
 # This program increments each number in the list by 1
-
 myList = []
 
 for i in range(5):

@@ -1,5 +1,4 @@
-# This program takes a birth month as input, determines its numerical value,  
-# and calculates how many months away it is from the current month.
+# This program takes a birth month as input, determines its numerical value and calculates how many months away it is from the current month.
 from datetime import datetime
 
 # Get the current date and time

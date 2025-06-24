@@ -1,5 +1,4 @@
 # Insertion Sort Algorithm Implementation
-
 myList = [81, 486, 89, 899, 87, 546, 56, 567, 78, 78]
 
 # Iterate through the list starting from the second element (index 1)

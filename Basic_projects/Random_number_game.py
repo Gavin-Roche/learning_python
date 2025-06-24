@@ -1,6 +1,5 @@
 # This program generates a series of random numbers between 0 and 100.
 # It writes each random number to a CSV file and also writes the total sum of the numbers at the end.
-
 import random
 
 # Creating or clearing the file initially

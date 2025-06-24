@@ -1,5 +1,4 @@
 # This program calculates the volume of a cylinder and determines how many cylinders can be filled with a given amount of liquid
-
 radius = float(input("Enter radius of the cylinder: "))
 height = float(input("Enter height of the cylinder: "))
 

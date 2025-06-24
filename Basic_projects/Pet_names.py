@@ -1,5 +1,4 @@
 # This program collects and displays the names of the user's pets
-
 petList = []
 totalPets = int(input("How many pets do you have: "))
 

@@ -1,5 +1,4 @@
 # This program calculates the total cost of milk based on hours spent in the house
-
 hours = []
 liters = []
 cost = float(input("Please enter the price of the milk: "))

@@ -1,5 +1,4 @@
 # Calculate total cost of fish and chips including VAT
-
 fish  = float(input("Number of fish: "))
 chips = float(input("Number of chips: "))
 

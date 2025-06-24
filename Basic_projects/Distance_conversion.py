@@ -1,5 +1,4 @@
 # Converts distance from miles to kilometers and calculates flight cost
-
 distanceMiles = 7061
 distanceKm = 7061 * 1.60935
 pricePreKm = 700

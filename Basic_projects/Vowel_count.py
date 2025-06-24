@@ -1,5 +1,4 @@
 # This program counts the number of vowels in a given sentence
-
 sentence = input("Please enter a sentence: ")
 vowels = 0
 

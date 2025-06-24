@@ -1,3 +1,20 @@
+"""
+This script processes and organizes data based on two-letter combinations from the alphabet 
+(A to X). It performs the following main tasks:
+
+1. Generates all unique two-letter pairs (e.g., AB, AC, ..., XY), skipping duplicates like AA,
+   and writes them to a file called 'Letter_pairs.csv'.
+
+2. Reads and processes an existing CSV file ('Memo_file.csv') that contains rows of letter-pair 
+   data spread across 7 columns. It extracts meaningful entries (those containing "=") and 
+   structures them into a cleaned, sorted format.
+
+3. Filters and writes the sorted and structured data into a new file called 'Cleaned_memo_file.csv',
+   organizing entries under relevant letter headers for easier readability.
+
+4. Optionally, it can filter and print word entries that match a specific number of associated 
+   items based on column count.
+"""
 import csv
 import string
 

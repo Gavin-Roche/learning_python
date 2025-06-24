@@ -1,5 +1,4 @@
 # This program counts the number of occurrences of a specified letter in a sentence
-
 sentence = input("Please enter sentence: ")
 findLetter = input("Please input the letter you want to find: ")
 numLetters = 0

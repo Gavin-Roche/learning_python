@@ -1,8 +1,9 @@
-# This program collects sales data for multiple salespeople.
-# It asks the user to input the number of salespeople, their names, and their sales amounts.
-# The data is written to a CSV file with both names and sales.
-# It then calculates and displays the total sales for the day.
-
+'''
+This program collects sales data for multiple salespeople.
+It asks the user to input the number of salespeople, their names, and their sales amounts.
+The data is written to a CSV file with both names and sales.
+It then calculates and displays the total sales for the day.
+'''
 namesList = []
 salesList = []
 salesTotal = 0

@@ -1,5 +1,4 @@
 # Turns the negative numbers in the list to zero
-
 myList = [1, -19, 27, 8, -5, 9]
 print(myList)
 

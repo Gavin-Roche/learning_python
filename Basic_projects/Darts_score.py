@@ -19,7 +19,3 @@ while score != 0:
     else:
         score = score + UserInput
         print("Not counted")
-
-
-
-

@@ -1,5 +1,4 @@
 # This program checks weekly rainfall and warns if it exceeds a specified threshold
-
 rain = []
 days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 maxRain = float(input("How much rain is needed before you are warned: "))
