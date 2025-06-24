@@ -1,33 +1,30 @@
 # This program collects sales data for multiple salespeople.
 # It asks the user to input the number of salespeople, their names, and their sales amounts.
-# The data is then written to two CSV files: one for names and another for sales.
-# Finally, it calculates and displays the total sales for the day.
+# The data is written to a CSV file with both names and sales.
+# It then calculates and displays the total sales for the day.
 
 namesList = []
 salesList = []
 salesTotal = 0
 
+# Get number of salespeople
 numSalesPeople = int(input("Please enter the number of salespeople: "))
 
-fileNames = open("sellersNames.csv", "a")
-fileSales = open("sellersSales.csv", "a")
+# Open CSV file for writing (append mode)
+with open("Sellers.csv", "a") as file:
+    for _ in range(numSalesPeople):
+        name = input("Please input the seller's name: ")
+        namesList.append(name)
 
-for items in range(numSalesPeople):
-    name = input("Please input the seller's name: ")
-    namesList.append(name)
-    fileNames.write(name + ",")
-    sales = float(input("Please input the seller's sales: "))
-    salesList.append(sales)
-    fileSales.write(str(sales) + ",")
-fileNames.close()
-fileSales.close()
+        sales = float(input("Please input " + name + "'s sales: "))
+        salesList.append(sales)
 
-print("Name\tSales")
+        file.write(name + "," + str(sales) + "\n")  # Write name and sales to the same line
+
+# Display results
+print("\nName\tSales")
 for i in range(numSalesPeople):
-    print(namesList[i], "\t", end="")
-    print(salesList[i], "\t", end="")
-    salesTotal = salesTotal + float(salesList[i])
-    print()
+    print(f"{namesList[i]}\t{salesList[i]}")
+    salesTotal += salesList[i]
 
-print()
-print("The total sales for the day is: ", salesTotal)
+print("\nThe total sales for the day is: €" + str(round(salesTotal, 2)))
