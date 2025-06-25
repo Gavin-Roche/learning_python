@@ -1,0 +1,10 @@
+# Memo File Processor
+This Python script is designed to process and organize data involving two-letter combinations from the alphabet, specifically letters A to X. It performs several key tasks to help clean and format data from an input file [Memo_file.csv](Memo_file.csv) and generate useful outputs for further analysis or documentation.
+
+The script begins by generating all possible unique two-letter combinations from the selected alphabet range, excluding any pairs with repeated letters (like "AA"). These combinations are formatted with an equal sign (e.g., "AB =") and saved to a file named Letter_pairs.csv.
+
+Next, the script reads from an existing file called Memo_file.csv, which is expected to contain data spread across seven columns. It filters out any rows that don’t contain a valid entry (identified by the presence of the "=" symbol), then extracts, capitalizes, and organizes the meaningful data. The cleaned and structured results are stored in a new file called Cleaned_memo_file.csv. This file is formatted for clarity, with letter headers and blank lines inserted to make the output easier to read and navigate.
+
+An additional optional feature allows the script to filter and print out specific entries based on the number of associated items or words found in each row. This can be controlled by modifying a value passed to the sort_list function.
+
+Overall, this script is useful for anyone working with structured pair-based data, particularly in contexts like linguistic analysis, categorization tasks, or memo data processing. It requires no external libraries and uses only built-in Python modules such as csv and string. Make sure your input files are UTF-8 encoded to handle all characters properly. Output files are automatically created and will overwrite any existing files with the same name.
