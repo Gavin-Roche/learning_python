@@ -1,2 +1,2 @@
 # Minimal Concept Test Programs
-This folder contains extremely simple test programs focused on basic concepts. They are intentionally minimal, either to meet the instructor’s requirements or for testing purposes, depending on whether they were written in a learning environment or on my own.
+This directory contains small, focused programs designed to demonstrate or test fundamental programming and system concepts. Each file targets a specific idea or functionality, with minimal code to reduce complexity and highlight the core purpose. These programs may have been created for academic exercises, experimentation, or personal learning.
